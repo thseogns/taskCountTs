@@ -36,7 +36,7 @@ function App() {
 
   const deleteNameHandler = (name: string) => {
     const updatedData = countData.filter((data) => data.name !== name);
-    localStorage.setItem("data", JSON.stringify(updatedData));
+    localStorage.setItem("countData", JSON.stringify(updatedData));
     setCountData(updatedData);
   };
   const addCounterHandler = (count: number, countKey: string) => {

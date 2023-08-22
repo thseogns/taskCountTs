@@ -1,0 +1,14 @@
+/** @format */
+
+.margin {
+  margin-bottom: 15px;
+}
+.add {
+  margin-left: 15px;
+}
+.taskName {
+  margin-right: 15px;
+}
+.flex {
+  display: flex;
+}

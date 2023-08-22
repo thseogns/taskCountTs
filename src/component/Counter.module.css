@@ -1,0 +1,22 @@
+/** @format */
+
+.decorator {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.counterName {
+  text-align: start;
+  line-height: 3;
+}
+.countDeco {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.countDeco span {
+  margin: 0 15px;
+  text-align: center;
+  line-height: 3;
+}
+.countDeco button {
+  padding: 10px 15px;
+}
